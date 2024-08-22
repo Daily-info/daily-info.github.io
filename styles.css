@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    margin-bottom: 20px; /* Increased spacing between the logo and the bot name */
+}
+
+.bot-name {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 30px; /* Increased spacing between the bot name and the button */
+}
+
+.button-container {
+    position: relative;
+}
+
+.add-bot-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #7289da;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.add-bot-button:hover {
+    background-color: #5b6eae;
+}
