@@ -28,26 +28,30 @@ body, html {
 
 .bot-description {
     font-size: 16px;
-    margin: 0 0 20px; /* Adjusted margin to add appropriate space between description and button */
+    margin: 0 0 20px; /* Spacing between the description and the buttons */
     text-align: center; /* Center align the text */
     max-width: 80%; /* Optional: to limit the width of the text */
 }
 
 .button-container {
-    position: relative;
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 10px; /* Space between buttons */
+    align-items: center;
 }
 
-.add-bot-button {
+.add-bot-button, .app-directory-button {
     padding: 10px 20px;
     font-size: 18px;
     color: white;
-    background-color: #7289da;
+    background-color: #5865f2; /* Same color for both buttons */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
 }
 
-.add-bot-button:hover {
-    background-color: #5b6eae;
+.add-bot-button:hover, .app-directory-button:hover {
+    background-color: #4e5bd3; /* Darker color on hover for both buttons */
 }
