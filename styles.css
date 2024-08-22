@@ -23,12 +23,12 @@ body, html {
 .bot-name {
     margin: 0;
     font-size: 24px;
-    margin-bottom: 10px; /* Reduced spacing to bring the description closer */
+    margin-bottom: 5px; /* Reduced spacing between the bot name and description */
 }
 
 .bot-description {
     font-size: 16px;
-    margin: 0 0 30px; /* Increased margin to add more space between description and button */
+    margin: 0 0 20px; /* Adjusted margin to add appropriate space between description and button */
     text-align: center; /* Center align the text */
     max-width: 80%; /* Optional: to limit the width of the text */
 }
