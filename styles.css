@@ -17,13 +17,20 @@ body, html {
     border-radius: 50%;
     border: 5px solid white;
     object-fit: cover;
-    margin-bottom: 20px; /* Increased spacing between the logo and the bot name */
+    margin-bottom: 20px; /* Spacing between the logo and the bot name */
 }
 
 .bot-name {
     margin: 0;
     font-size: 24px;
-    margin-bottom: 30px; /* Increased spacing between the bot name and the button */
+    margin-bottom: 10px; /* Reduced spacing to bring the description closer */
+}
+
+.bot-description {
+    font-size: 16px;
+    margin: 0 0 30px; /* Increased margin to add more space between description and button */
+    text-align: center; /* Center align the text */
+    max-width: 80%; /* Optional: to limit the width of the text */
 }
 
 .button-container {
