@@ -55,3 +55,8 @@ body, html {
 .add-bot-button:hover, .app-directory-button:hover {
     background-color: #4e5bd3; /* Darker color on hover for both buttons */
 }
+.cm{
+    margin: 0;
+    font-size: 70px;
+    margin-bottom: 5px; /* Reduced spacing between the bot name and description */
+}
