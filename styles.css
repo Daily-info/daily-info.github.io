@@ -4,7 +4,6 @@ body, html {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #282c34;
     color: white;
@@ -60,3 +59,121 @@ body, html {
     font-size: 70px;
     margin-bottom: 5px; /* Reduced spacing between the bot name and description */
 }
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+.bot-name {
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.bot-description {
+    font-size: 16px;
+    margin: 0 0 20px;
+    text-align: center;
+    max-width: 80%;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.changelog {
+    background-color: #1e2024;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.changelog h2 {
+    margin: 0;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.version {
+    margin-bottom: 20px;
+}
+
+.version h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.version h4 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.version ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.version ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.add-bot-button, .app-directory-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #5865f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.add-bot-button:hover, .app-directory-button:hover {
+    background-color: #4e5bd3;
+}
+
+.gif-container {
+    text-align: center;
+    margin: 20px 0; /* Space around the GIF */
+}
+
+.changelog-gif {
+    max-width: 100%; /* Ensure the GIF is responsive */
+}
+
+.title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.description {
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
