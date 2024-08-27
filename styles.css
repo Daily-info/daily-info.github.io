@@ -89,8 +89,7 @@ header {
 
 main {
     width: 90%;
-    max-width: 800px;
-    padding: 20px;
+
     box-sizing: border-box;
 }
 
@@ -104,7 +103,7 @@ main {
     margin: 0;
     font-size: 32px;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .version {
