@@ -201,3 +201,8 @@ a:-webkit-any-link {
     color: #2388fd;
     text-decoration: none;
 }
+
+#blink {
+    color: white;
+    text-decoration: none;
+}
