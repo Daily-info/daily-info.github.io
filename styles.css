@@ -89,7 +89,6 @@ header {
 
 main {
     width: 90%;
-    max-width: 800px;
     box-sizing: border-box;
 }
 
@@ -97,6 +96,7 @@ main {
     background-color: #1e2024;
     padding: 20px;
     border-radius: 10px;
+    max-width: 900px;
 }
 
 .changelog h2 {
