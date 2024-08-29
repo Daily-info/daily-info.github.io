@@ -101,6 +101,7 @@ main {
 }
 
 .changelog h2 {
+    text-align: left;
     margin: 0;
     font-size: 32px;
     margin-bottom: 20px;
@@ -173,12 +174,14 @@ footer {
 
 .title {
     font-size: 36px;
-    margin: 0;
+    margin-left: 55px;
+    text-align: left;
 }
 
 .description {
     font-size: 18px;
-    margin: 10px 0 0 0;
+    margin: 10px 0 0 55px;
+    text-align: left;
 }
 
 .home {
