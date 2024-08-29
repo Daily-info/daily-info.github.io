@@ -60,7 +60,7 @@ body, html {
     margin-bottom: 5px; /* Reduced spacing between the bot name and description */
 }
 header {
-    width: 100%;
+    width: 90%;
     text-align: center;
     padding: 20px 0;
     padding-top: 30px;
@@ -174,13 +174,12 @@ footer {
 
 .title {
     font-size: 36px;
-    margin-left: 55px;
     text-align: left;
 }
 
 .description {
     font-size: 18px;
-    margin: 10px 0 0 55px;
+    margin: 10px 0 0 0;
     text-align: left;
 }
 
